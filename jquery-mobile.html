@@ -4,23 +4,27 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <title>jQueryMobile Demo</title>
   </head>
   <body>
-    <div data-role="page" id="pageone">
+    <div data-role="page" id="pageone" class="gradient-bg">
       <div data-role="header" data-position="fixed">
-        <h1>Welcome to my page</h1>
+        <h1>北京天氣</h1>
       </div>
 
-      <div data-role="content">
-        <p>Welcome!</p>
+      <div data-role="content" class="location">
+        <h1>北京</h1>
+        <img src="icons/hazy.png" alt="Sunny" class='image-center weather-icon'>
+        <p class="climate">晴時多雲</p>
+        <p class=temp>3°C～10°C</p>
+        <p class="wind">東風微風</p>
       </div>
 
-      <div data-role="footer" data-position="fixed">
-        <h1>I'm footer</h1>
-      </div>
+      <hr class='line'>
+
     </div>
   </body>
 </html>

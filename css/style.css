@@ -1,0 +1,56 @@
+.gradient-bg{
+  background-image: linear-gradient(rgb(33, 147, 176), rgb(109, 213, 237));
+}
+
+.location h1{
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+  font-size: 3rem;
+}
+
+.image-center{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.weather-icon{
+  width: 250px;
+  margin-top: -30px;
+}
+
+.line{
+  width: 90%;
+  color: white;
+  opacity: 0.5;
+  border: 0;
+  border-top: 1px solid #ffffff;
+  margin-top: -20px;
+
+}
+
+.climate{
+  color:white;
+  text-align: center;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+  font-size: 1.3rem;
+  margin-top: -25px;
+}
+
+.temp{
+  color:white;
+  text-align: center;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+  font-size: 2.5rem;
+  margin-top: -10px;
+  font-weight: 500;
+}
+
+.wind{
+  color:white;
+  text-align: center;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+  font-size: 1.3rem;
+  margin-top: -25px;
+}
