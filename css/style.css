@@ -1,5 +1,12 @@
 .gradient-bg{
-  background-image: linear-gradient(rgb(33, 147, 176), rgb(109, 213, 237));
+  background-image: linear-gradient(rgb(47, 128, 237), rgb(86, 204, 242));
+}
+
+.header-location{
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  border-color: rgba(0, 0, 0, 0) !important;
+  color: rgba(255, 255, 255, 0.8)!important;
+  text-shadow: 0px 0px 0px rgba(255, 0, 0, 0.0) !important;
 }
 
 .location h1{
@@ -26,8 +33,12 @@
   opacity: 0.5;
   border: 0;
   border-top: 1px solid #ffffff;
-  margin-top: -20px;
+  margin-top: 50px;
 
+}
+
+.line-s{
+  display: none;
 }
 
 .climate{
@@ -53,4 +64,72 @@
   text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
   font-size: 1.3rem;
   margin-top: -25px;
+}
+
+.column-two {
+    float: left;
+    width: 48%;
+    padding: 5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.center{
+  text-align: center;
+}
+
+.column-title{
+  color: #ffffff;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+.colomn-with-right-border{
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.now-temp{
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+  font-size: 3rem;
+  line-height: 0px;
+}
+
+.aqi-index{
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+  font-size: 3rem;
+  line-height: 0px;
+}
+
+.aqi-quality{
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+  font-size: 1rem;
+  line-height: 0px;
+  margin-top: -10px;
+}
+
+.flow-left{
+  float: left;
+}
+
+@media only screen and (max-width: 557px){
+  .column-two {
+      width: 100%;
+  }
+  .colomn-with-right-border{
+    border-right: 1px solid rgba(255, 255, 255, 0);
+  }
+
+  .line-s{
+    display: block;
+  }
 }
